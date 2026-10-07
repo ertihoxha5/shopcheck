@@ -1,0 +1,12 @@
+:root { font-family: system-ui, sans-serif; color: #172b32; background: #f3f6f5; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 720px; margin: 10vh auto; padding: 28px; }
+h1 { font-size: 3rem; margin: 12px 0; }
+h2 { font-size: 1.2rem; }
+p { line-height: 1.6; }
+.eyebrow { color: #345f53; font-size: .8rem; letter-spacing: .12em; font-weight: 700; }
+section { margin: 28px 0; padding: 20px 24px; background: white; border: 1px solid #cbd8d3; border-radius: 12px; }
+.note { color: #51635d; }
+.products { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+article { background: white; border: 1px solid #cbd8d3; border-radius: 12px; padding: 20px; }
